@@ -1,0 +1,96 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    background-image:url(img/marketing-digital-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 25%;
+    margin-bottom: 12px;
+}
+.container{
+    margin: 80px auto;
+    width: 25%;
+    text-align: center; 
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    width: auto;
+    overflow: auto;
+    margin-bottom: 5px;
+
+}
+h2{
+    color: #ffffff;
+    /*text-transform: lowercase;*/
+    font-size: 18px;
+    width: auto;
+    overflow: auto;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+}
+h4{
+    width: auto;
+    color: #ffffff;
+    overflow: auto;
+    font-size: 12px;
+    font-weight:900
+}
+.button{
+    color: #ffffff;
+    font-size: 11px;
+    padding: 6px;
+    background-color: #2a7bec;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    letter-spacing: normal;
+    height:auto;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+    display: block;
+    
+}
+.button:hover{
+    color: blue;
+}
+.container span{
+    font-size: 14px;
+}
+.nome{
+    width: 100%;
+    padding: 6px;
+    border-radius:5px 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    font-size: 11px;
+}
+.email{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px 5px;
+    border: 0;
+    margin: 5px 0 6px;
+    font-size: 11px;
+}
+label{
+    color: #ffffff;
+    font-size: 10px;
+    overflow: auto;
+    letter-spacing: normal;
+    width:auto;
+}
